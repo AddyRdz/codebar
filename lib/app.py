@@ -64,4 +64,7 @@ class Workshop:
     
 workshop = Workshop("12/03/2014", "Shutl")
 workshop.add_participant(lena)
+workshop.add_participant(vicky)
+workshop.add_participant(nicole)
+workshop.print_details()
 print(workshop.students)
